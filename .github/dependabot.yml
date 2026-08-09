@@ -47,3 +47,18 @@ updates:
       interval: weekly
     exclude-paths:
       - "misc/bazel/registry/**"
+
+  - package-ecosystem: "pip"
+    directory: "misc/codegen"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pip"
+    directory: "python/extractor"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "csharp"
+    schedule:
+      interval: "weekly"
